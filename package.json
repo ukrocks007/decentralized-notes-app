@@ -9,13 +9,21 @@
     "author": "Utkarsh Mehta <utkarsh@tarkalabs.com>",
     "license": "ISC",
     "dependencies": {
+        "ipfs": "^0.41.0",
+        "orbit-db": "^0.23.1",
+        "orbit-db-docstore": "^1.7.0",
         "react": "^16.12.0",
-        "react-dom": "^16.12.0"
+        "react-dom": "^16.12.0",
+        "react-uuid": "^1.0.2"
     },
+    "browserslist": [
+        "last 2 Chrome versions"
+    ],
     "devDependencies": {
         "@babel/core": "^7.8.4",
         "@babel/preset-env": "^7.8.4",
         "@babel/preset-react": "^7.8.3",
+        "@babel/preset-typescript": "^7.8.3",
         "parcel-bundler": "^1.12.4"
     }
 }
