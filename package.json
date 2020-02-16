@@ -1,0 +1,21 @@
+{
+    "name": "react-parcel",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel index.html"
+    },
+    "author": "Utkarsh Mehta <utkarsh@tarkalabs.com>",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.8.4",
+        "@babel/preset-env": "^7.8.4",
+        "@babel/preset-react": "^7.8.3",
+        "parcel-bundler": "^1.12.4"
+    }
+}
